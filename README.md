@@ -41,5 +41,7 @@
 
   `navigator.userAgent`[定义和用法](http://www.w3school.com.cn/jsref/prop_nav_useragent.asp)<br>
   userAgent 属性是一个只读的字符串，声明了浏览器用于 HTTP 请求的用户代理头的值。一般来讲，它是在 navigator.appCodeName 的值之后加上斜线和 navigator.appVersion 的值构成的。
-* `TO DO`: 深入学习javascript。[学习资源1_W3Cschool](http://www.w3cschool.cn/javascript/)    [学习资源2_W3School](http://www.w3school.com.cn/b.asp)
+* `TO DO`: 
+	1. 深入学习javascript。[学习资源1_W3Cschool](http://www.w3cschool.cn/javascript/)[学习资源2_W3School](http://www.w3school.com.cn/b.asp)
+	2. 学习研究下如何在`webpack`中使用`html-withimg-loader`，使得可以用<img>标签。
 
