@@ -45,3 +45,17 @@
 	1. 深入学习javascript。[学习资源1_W3Cschool](http://www.w3cschool.cn/javascript/)[学习资源2_W3School](http://www.w3school.com.cn/b.asp)
 	2. 学习研究下如何在`webpack`中使用`html-withimg-loader`，使得可以用&lt;img&gt;标签。
 
+## 2017-03-11 Sat
+学到[JavaScript Cookies](http://www.w3cschool.cn/javascript/js-cookies.html)<br>
+Q:  例子中的以下代码不懂。[例子](http://www.w3cschool.cn/tryrun/showhtml/tryjs_cookie_username)
+```javascript
+function getCookie(cname){
+	var name = cname + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0; i<ca.length; i++) {
+		var c = ca[i].trim();
+		if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+	}
+	return "";
+}
+```
